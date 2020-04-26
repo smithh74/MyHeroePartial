@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ParcialTwo</string>
+    <string name="name_character">Iron Man</string>
+    <string name="userima">user</string>
+    <string name="description">Es un actor, productor y cantante estadounidense, ganador de dos Globos de Oro y un BAFTA. Con cuatro décadas en el mundo del espectáculo, ha rodado más de 80 películas.</string>
+    <string name="real_name_text">Tony Stark</string>
+    <string name="submit">Submit</string>
+    <string name="name_character_edit">Name character</string>
+    <string name="name_movie1">Avengers: Endgame</string>
+    <string name="year_movie1">2019</string>
+    <string name="year_movie2">2018</string>
+    <string name="name_movie2">Avengers: Infinity War</string>
+    <string name="name_movie3">Spider-Man: Homecoming</string>
+    <string name="year_movie3">2017</string>
+    <string name="name_movie4">Capitán América: Civil War</string>
+    <string name="yaer_movie4">2016</string>
+</resources>

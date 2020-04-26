@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name_character_text"
+            style="@style/RealNameStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_character"
+            android:textAlignment="center"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/photo_ima"
+            android:layout_width="347dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/userima"
+            android:paddingTop="@dimen/small_padding"
+            app:srcCompat="@drawable/user" />
+
+        <EditText
+            android:id="@+id/name_submit_edit"
+            style="@style/RealNameStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/name_character_edit"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/submit"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleImage" />
+
+        <ScrollView
+            android:id="@+id/movie_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/real_name_text"
+                    style="@style/RealNameStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/real_name_text"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/descripcion_text"
+                    style="@style/RealNameStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:id="@+id/movie1_ima"
+                    android:layout_width="347dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/userima"
+                    android:paddingTop="@dimen/small_padding"
+                    app:srcCompat="@drawable/user" />
+
+                <TextView
+                    android:id="@+id/name_movie1_text"
+                    style="@style/RealNameStyle"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_movie1" />
+
+                <TextView
+                    android:id="@+id/year_movie1_text"
+                    style="@style/RealNameStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/year_movie1"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:id="@+id/movie2_ima"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/userima"
+                    android:paddingTop="@dimen/small_padding"
+                    app:srcCompat="@drawable/user" />
+
+                <TextView
+                    android:id="@+id/name_movie2_text"
+                    style="@style/RealNameStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_movie2"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/year_movie2_text2"
+                    style="@style/RealNameStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/year_movie2"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:id="@+id/movie3_ima"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/userima"
+                    android:paddingTop="@dimen/small_padding"
+                    app:srcCompat="@drawable/user" />
+
+                <TextView
+                    android:id="@+id/name_movie3_text"
+                    style="@style/RealNameStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_movie3"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/year_movie3_text"
+                    style="@style/RealNameStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/year_movie3"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:id="@+id/movie4_ima"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/userima"
+                    android:paddingTop="@dimen/small_padding"
+                    app:srcCompat="@drawable/user" />
+
+                <TextView
+                    android:id="@+id/name_movie4_text"
+                    style="@style/RealNameStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_movie4"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/year_movie4_text"
+                    style="@style/RealNameStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/year_movie2"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+</layout>
