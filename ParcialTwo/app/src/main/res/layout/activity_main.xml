@@ -86,7 +86,7 @@
                         android:id="@+id/movie1_ima"
                         android:layout_width="200dp"
                         android:layout_height="190dp"
-                        android:layout_gravity="right|center_vertical"
+                        android:layout_gravity="end|center_vertical"
                         android:contentDescription="@string/userima"
                         android:paddingTop="@dimen/small_padding"
                         app:srcCompat="@drawable/user" />
@@ -103,7 +103,7 @@
                         style="@style/RealNameStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="left|center_vertical"
+                        android:layout_gravity="start|center_vertical"
                         android:text="@string/year_movie1" />
 
                 </FrameLayout>
@@ -118,7 +118,7 @@
                         android:id="@+id/movie2_ima"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_gravity="right|center_vertical"
+                        android:layout_gravity="end|center_vertical"
                         android:contentDescription="@string/userima"
                         android:paddingTop="@dimen/small_padding"
                         app:srcCompat="@drawable/user" />
@@ -136,7 +136,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/year_movie2"
-                        android:layout_gravity="left|center_vertical"
+                        android:layout_gravity="start|center_vertical"
                          />
 
                 </FrameLayout>
@@ -149,7 +149,7 @@
                         android:id="@+id/movie3_ima"
                         android:layout_width="200dp"
                         android:layout_height="190dp"
-                        android:layout_gravity="right|center_vertical"
+                        android:layout_gravity="end|center_vertical"
                         android:contentDescription="@string/userima"
                         android:paddingTop="@dimen/small_padding"
                         app:srcCompat="@drawable/user" />
@@ -167,7 +167,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/year_movie3"
-                        android:layout_gravity="left|center_vertical"/>
+                        android:layout_gravity="start|center_vertical"/>
                 </FrameLayout>
 
                 <FrameLayout
@@ -179,7 +179,7 @@
                         android:id="@+id/movie4_ima"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_gravity="right|center_vertical"
+                        android:layout_gravity="end|center_vertical"
                         android:contentDescription="@string/userima"
                         android:paddingTop="@dimen/small_padding"
                         app:srcCompat="@drawable/user" />
@@ -198,7 +198,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/yaer_movie4"
-                        android:layout_gravity="left|center_vertical"/>
+                        android:layout_gravity="start|center_vertical"/>
                 </FrameLayout>
             </LinearLayout>
         </ScrollView>
