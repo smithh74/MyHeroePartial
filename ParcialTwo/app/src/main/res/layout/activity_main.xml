@@ -77,105 +77,129 @@
                     android:text="@string/description"
                     android:textAlignment="center" />
 
-                <ImageView
-                    android:id="@+id/movie1_ima"
-                    android:layout_width="347dp"
-                    android:layout_height="200dp"
-                    android:layout_gravity="center"
-                    android:contentDescription="@string/userima"
-                    android:paddingTop="@dimen/small_padding"
-                    app:srcCompat="@drawable/user" />
-
-                <TextView
-                    android:id="@+id/name_movie1_text"
-                    style="@style/RealNameStyle"
-                    android:textAlignment="center"
+                <FrameLayout
+                    android:id="@+id/movie1_framelayout"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/name_movie1" />
+                    android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/year_movie1_text"
-                    style="@style/RealNameStyle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/year_movie1"
-                    android:textAlignment="center" />
+                    <ImageView
+                        android:id="@+id/movie1_ima"
+                        android:layout_width="200dp"
+                        android:layout_height="190dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:contentDescription="@string/userima"
+                        android:paddingTop="@dimen/small_padding"
+                        app:srcCompat="@drawable/user" />
 
-                <ImageView
-                    android:id="@+id/movie2_ima"
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_gravity="center"
-                    android:contentDescription="@string/userima"
-                    android:paddingTop="@dimen/small_padding"
-                    app:srcCompat="@drawable/user" />
+                    <TextView
+                        android:id="@+id/name_movie1_text"
+                        style="@style/RealNameStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/name_movie1" />
 
-                <TextView
-                    android:id="@+id/name_movie2_text"
-                    style="@style/RealNameStyle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/name_movie2"
-                    android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/year_movie1_text"
+                        style="@style/RealNameStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:text="@string/year_movie1" />
 
-                <TextView
-                    android:id="@+id/year_movie2_text2"
-                    style="@style/RealNameStyle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/year_movie2"
-                    android:textAlignment="center" />
+                </FrameLayout>
 
-                <ImageView
-                    android:id="@+id/movie3_ima"
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_gravity="center"
-                    android:contentDescription="@string/userima"
-                    android:paddingTop="@dimen/small_padding"
-                    app:srcCompat="@drawable/user" />
 
-                <TextView
-                    android:id="@+id/name_movie3_text"
-                    style="@style/RealNameStyle"
+                <FrameLayout
+                    android:id="@+id/movie2_framelayout"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/name_movie3"
-                    android:textAlignment="center" />
+                    android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/year_movie3_text"
-                    style="@style/RealNameStyle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/year_movie3"
-                    android:textAlignment="center" />
+                    <ImageView
+                        android:id="@+id/movie2_ima"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:contentDescription="@string/userima"
+                        android:paddingTop="@dimen/small_padding"
+                        app:srcCompat="@drawable/user" />
 
-                <ImageView
-                    android:id="@+id/movie4_ima"
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_gravity="center"
-                    android:contentDescription="@string/userima"
-                    android:paddingTop="@dimen/small_padding"
-                    app:srcCompat="@drawable/user" />
+                    <TextView
+                        android:id="@+id/name_movie2_text"
+                        style="@style/RealNameStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/name_movie2" />
 
-                <TextView
-                    android:id="@+id/name_movie4_text"
-                    style="@style/RealNameStyle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/name_movie4"
-                    android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/year_movie2_text2"
+                        style="@style/RealNameStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/year_movie2"
+                        android:layout_gravity="left|center_vertical"
+                         />
 
-                <TextView
-                    android:id="@+id/year_movie4_text"
-                    style="@style/RealNameStyle"
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/movie3_framelayout"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/year_movie2"
-                    android:textAlignment="center" />
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/movie3_ima"
+                        android:layout_width="200dp"
+                        android:layout_height="190dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:contentDescription="@string/userima"
+                        android:paddingTop="@dimen/small_padding"
+                        app:srcCompat="@drawable/user" />
+
+                    <TextView
+                        android:id="@+id/name_movie3_text"
+                        style="@style/RealNameStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/name_movie3" />
+
+                    <TextView
+                        android:id="@+id/year_movie3_text"
+                        style="@style/RealNameStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/year_movie3"
+                        android:layout_gravity="left|center_vertical"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/movie4_framelayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/movie4_ima"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:contentDescription="@string/userima"
+                        android:paddingTop="@dimen/small_padding"
+                        app:srcCompat="@drawable/user" />
+
+                    <TextView
+                        android:id="@+id/name_movie4_text"
+                        style="@style/RealNameStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/name_movie4"
+                        />
+
+                    <TextView
+                        android:id="@+id/year_movie4_text"
+                        style="@style/RealNameStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yaer_movie4"
+                        android:layout_gravity="left|center_vertical"/>
+                </FrameLayout>
             </LinearLayout>
         </ScrollView>
 
